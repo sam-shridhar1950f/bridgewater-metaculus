@@ -18,8 +18,8 @@ def main():
     
     q = Question(
         id="crypto-1",
-        text="Will Google, Meta, Amazon, Tesla, or X accept crypto as payment by December 31, 2025?",
-        category="tech",
+        text=f"Will there be at least 1,000 deaths due to direct conflict between Israel and Iran in 2025?",
+        category="geopolitics",
         deadline=datetime(2025, 12, 31)
     )
     manager.add_question(q)
